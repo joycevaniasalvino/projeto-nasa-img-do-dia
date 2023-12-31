@@ -1,8 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react';
 import { fetchDataFromAPI, Data } from '../actions/getData';
-import Image from 'next/image'
-import Link from 'next/link';
 
 export default function SeuComponente() {
     const [data, setData] = useState<Data | null>(null);
